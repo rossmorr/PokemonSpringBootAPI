@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/trainerStyles.css">
+    <title></title>
+  </head>
+  <body>
+    <nav>
+      <div class="innerNav">
+        <a class="navHeader" href="index.html">Home</a>
+        <a class="navHeader" href="view.html">View</a>
+        <a class="navHeader" href="trainers.html">Trainers</a>
+        <a class="navHeader" href="pokemon.html">Pokémon</a>
+      </div>
+    </nav>
+
+    <h1>Pokemon</h1>
+
+    <div class="outercontainer">
+
+
+      <div class="form">
+
+
+
+        <form class="createPokemon" action="index.html" method="post">
+              <h2>Create</h2>
+              <select class="" name="species">
+                <option value="test" disabled selected>Species of Pokemon</option>
+                <option value="Bulbasaur">Bulbasaur</option>
+                <option value="Charmander">Charmander</option>
+                <option value="Squirtle">Squirtle</option>
+                <option value="Caterpie">Caterpie</option>
+                <option value="Pidgey">Pidgey</option>
+                <option value="Rattata">Rattata</option>
+                <option value="Ekans">Ekans</option>
+                <option value="Pikachu">Pikachu</option>
+                <option value="Meowth">Meowth</option>
+                <option value="Mew">Mew</option>
+
+
+              </select>
+
+              <select class="trainerselect" name="trainer">
+                <option value= 0 >Trainer to assign(optional)</option>
+              </select>
+
+          <input type="submit" name="" value="Submit">
+
+        </form>
+
+      </div>
+
+      <div class="form">
+
+
+        <form class="DeletePokemon" action="index.html" method="post">
+              <h2>Delete</h2>
+          <select class="deleteSelect" name="idDelete">
+            <option value="test">Pokemon ID to delete</option>
+          </select>
+
+          <input type="submit" name="" value="Submit">
+
+        </form>
+
+      </div>
+
+      <div class="form">
+
+
+
+        <form class="UpdatePokemon" action="index.html" method="post">
+              <h2>Update</h2>
+            <select class="updateSelect" name="idUpdate">
+                <option name="species" value="test">Pokemon to update</option>
+            </select>
+
+            <select class="" name="species">
+              <option value="test" disabled selected>Species to set to</option>
+              <option value="Bulbasaur">Bulbasaur</option>
+              <option value="Charmander">Charmander</option>
+              <option value="Squirtle">Squirtle</option>
+              <option value="Caterpie">Caterpie</option>
+              <option value="Pidgey">Pidgey</option>
+              <option value="Rattata">Rattata</option>
+              <option value="Ekans">Ekans</option>
+              <option value="Pikachu">Pikachu</option>
+              <option value="Meowth">Meowth</option>
+              <option value="Mew">Mew</option>
+            </select>
+
+            <select class="trainerUpdateSelect" name="trainer">
+                <option value= 0 >Trainer to update to</option>
+            </select>
+
+
+            <input type="submit" name="" value="Submit">
+
+
+        </form>
+
+      </div>
+
+
+
+    </div>
+
+    <div class="popup confirmCreate">
+      <p>Pokemon created</p>
+    </div>
+
+    <div class="popup confirmDelete">
+      <p>Pokemon deleted</p>
+    </div>
+
+    <div class="popup confirmUpdate">
+      <p>Pokemon updated</p>
+    </div>
+
+
+
+      <script src="appPokemon.js" charset="utf-8"></script>
+  </body>
+</html>

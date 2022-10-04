@@ -1,0 +1,88 @@
+body{
+  margin:0;
+  background-color: RGBA(20,90,20,0.4);
+}
+
+nav{
+  background-color: RGBA(20,255,20,0.4);
+  display: flex;
+  justify-content: center;
+}
+
+table{
+  background-color: rgba(150,150,150,0.6);
+  border-radius: 5px;
+  text-align: center;
+  border-collapse: separate;
+  text-indent: initial;
+  border-spacing: 2px;
+  -webkit-border-horizontal-spacing: 0px;
+  -webkit-border-vertical-spacing: 2px;
+    margin-top: 2vh;
+}
+
+th{
+  border: 1.2px solid black;
+}
+
+td{
+  border-spacing: 0;
+  border-right: 1px solid  rgba(50,50,50,0.6);
+    border-left: 1px solid  rgba(50,50,50,0.6);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+tr{
+  margin-right: 0;
+  margin-left: 0;
+}
+
+h1{
+  text-align: center;
+  margin-top: 4vh;
+
+}
+
+.trainerTable{
+
+  width: 65vw;
+
+
+
+
+
+}
+
+.rowdiv{
+  display:flex;
+  justify-content: center;
+}
+
+.columndiv{
+  display:flex;
+  flex-direction: column;
+  margin-left: 6vh;
+  margin-right: 6vh;
+}
+
+.innerNav{
+  display: flex;
+  justify-content: space-between;
+  width:50%;
+}
+
+.viewdiv{
+
+  display:flex;
+  justify-content: space-around;
+}
+
+.navHeader{
+  text-decoration: none;
+  font-size: 2vw;
+}
+
+.navHeader:hover{
+  background-color: RGBA(20,255,20,1)
+}

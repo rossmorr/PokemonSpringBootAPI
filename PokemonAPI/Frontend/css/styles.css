@@ -1,0 +1,47 @@
+body{
+  margin: 0;
+}
+
+nav{
+  background-color: RGBA(20,255,20,0.4);
+  display: flex;
+  justify-content: center;
+}
+
+.innerNav{
+  display: flex;
+  justify-content: space-between;
+  width:50%;
+}
+
+.navHeader{
+  text-decoration: none;
+  font-size: 2vw;
+}
+
+.navHeader:hover{
+  background-color: RGBA(20,255,20,1)
+}
+
+.HomeDiv{
+  background-image: url("../assets/home.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+}
+
+.mainHeader{
+  background-color: rgba(219, 144, 46, 0.3);
+  border: 2px solid black;
+  border-radius: 10%;
+  padding: 0.3em;
+  display: inline-block;
+  position: relative;
+  left: 55vw;
+  top: 25vh;
+  font-family: 'Courgette', cursive;
+  font-size: 5em;
+  text-align: center;
+  color: #30a4cf;
+  -webkit-text-stroke: 0.2px black;
+}

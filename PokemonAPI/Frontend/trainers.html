@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/trainerStyles.css">
+    <title></title>
+  </head>
+  <body>
+    <nav>
+      <div class="innerNav">
+        <a class="navHeader" href="index.html">Home</a>
+        <a class="navHeader" href="view.html">View</a>
+        <a class="navHeader" href="trainers.html">Trainers</a>
+        <a class="navHeader" href="pokemon.html">Pokémon</a>
+      </div>
+    </nav>
+
+    <h1>Trainers</h1>
+
+    <div class="outercontainer">
+
+
+      <div class="form">
+
+
+
+        <form class="createTrainer" action="http://localhost:8080/createTrainer" method="post">
+              <h2>Create</h2>
+          <input type="text" name="name" placeholder="Enter name of trainer">
+
+          <input type="submit" name="" value="Submit">
+
+        </form>
+
+      </div>
+
+      <div class="form">
+
+
+        <form class="deleteTrainer" action="index.html" method="post">
+              <h2>Delete</h2>
+          <select class="deleteSelect" name="idDelete">
+            <option value="test" disabled selected>Trainer ID to delete</option>
+          </select>
+
+          <input type="submit" name="" value="Submit">
+
+        </form>
+
+      </div>
+
+      <div class="form">
+
+
+
+        <form class="UpdateTrainer" action="index.html" method="post">
+              <h2>Update</h2>
+              <select class="updateSelect" name="id">
+                <option value="test" disabled selected>Trainer ID to update</option>
+              </select>
+
+          <input type="text" name="name" placeholder="Change name to">
+            <input type="submit" name="" value="Submit">
+
+
+        </form>
+
+      </div>
+
+
+
+    </div>
+
+
+<div class="popup confirmCreate">
+  <p>Trainer created</p>
+</div>
+
+<div class="popup confirmDelete">
+  <p>Trainer deleted</p>
+</div>
+
+<div class="popup confirmUpdate">
+  <p>Trainer updated</p>
+</div>
+
+
+
+
+      <script src="appTrainer.js" charset="utf-8"></script>
+  </body>
+</html>
